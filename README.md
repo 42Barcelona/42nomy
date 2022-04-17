@@ -41,3 +41,17 @@ We would like also to have the possibility to filter the time range
 - By month
 - By week
 - Today
+
+### Goals
+
+Since not everyone aim the same goals in life, it's the same for your learning path
+
+Let's make it possible to choose different goals like:
+- The piscine (Discover Internet, Shell, C, peer2peer and 42 in general)
+- The common Core (learn the polyvalent basis knowledge of programming that will allow you to do whatever you want)
+- RNCP 6: Web & Modible Apps
+- RNCP 6: Software
+- RNCP 7: IT & Network
+- RNCP 7: Architecture Data & DB
+- Level 16 (Old Junior degree)
+- Level 21 (Old senior degree)
