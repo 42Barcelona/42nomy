@@ -61,3 +61,4 @@ Let's make it possible to choose different goals like:
 - [42 Evaluators Black Hole](https://42evaluators.com/blackhole)
 - [42 Evaluators XP Estimator](https://42evaluators.com/calculator)
 - [42 Evaluators Peer Finder](https://42evaluators.com/peerfinder/)
+- [gphilipp's Intra CLI](https://github.com/GlaceCoding/akatsugit_pydetector)
