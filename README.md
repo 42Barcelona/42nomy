@@ -56,7 +56,7 @@ Let's make it possible to choose different goals like:
 - Level 16 (Old Junior degree)
 - Level 21 (Old senior degree)
 
-# Refernces
+# References
 - [42 Evaluators RNCP](https://42evaluators.com/rncp/)
 - [42 Evaluators Black Hole](https://42evaluators.com/blackhole)
 - [42 Evaluators XP Estimator](https://42evaluators.com/calculator)
