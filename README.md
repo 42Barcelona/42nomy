@@ -12,6 +12,8 @@ Experimental FOSS project to provide stats to students to help them manage their
 - ActiveSpeedRatio = 1 - (1 / ActiveSpeed) # We aim for the highest value of ActiveSpeed
 - BH Amount = nb of days of BH left
 - BHRatio = 1 - (1 / ActiveSpeed) # We aim for the highest amount of BH
+- nbOfCloses = The number of closes / community service you got
+> (a community service is always a close, a close is not always a community service but a desactivation of the account for whatever reason)
 - ClosesRatio 1 / nbOfCloses # We aim for the lowest amount of closes
 - ProjectSpeed = (Nowadays - locked_at)
 - ProjectAmount = AmountOfValidatedProjects
