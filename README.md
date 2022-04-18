@@ -6,37 +6,40 @@ Experimental FOSS project to provide stats to students to help them manage their
 ### Variables
 
 #### Progression
-- XP = total of winned xp (all cursus)
-- CursusXP = total of winned xp for a specific cursus
+-
+  - XP = total of winned xp (all cursus)
+  - CursusXP = total of winned xp for a specific cursus
 
-- BH Amount = nb of days of BH left
-- BHRatio = 1 - (1 / ActiveSpeed) # We aim for the highest amount of BH
+-
+  - BH Amount = nb of days of BH left
+  - BHRatio = 1 - (1 / ActiveSpeed) # We aim for the highest amount of BH
 
 #### Involvment
+-
+  - ActiveSpeed = total xp / total time logged
+  - ActiveSpeedRatio = 1 - (1 / ActiveSpeed) # We aim for the highest value of ActiveSpeed
 
-- ActiveSpeed = total xp / total time logged
-- ActiveSpeedRatio = 1 - (1 / ActiveSpeed) # We aim for the highest value of ActiveSpeed
+-
+  - AmountOfEarnedCoaPts = Total amount of points winned since you've a 42 account
+  - CoalitionPointsRatio = 1 - (1 / AmountOfEarnedCoaPts) # We aim for the highest amount of coalition points
 
-
-- AmountOfEarnedCoaPts = Total amount of points winned since you've a 42 account
-- CoalitionPointsRatio = 1 - (1 / AmountOfEarnedCoaPts) # We aim for the highest amount of coalition points
-
-
-- nbOfCloses = The number of closes / community service you got
+-
+  - nbOfCloses = The number of closes / community service you got
+  - ClosesRatio 1 / nbOfCloses # We aim for the lowest amount of closes
 > (a community service is always a close, a close is not always a community service but a desactivation of the account for whatever reason)
-- ClosesRatio 1 / nbOfCloses # We aim for the lowest amount of closes
-
 
 #### Performance
 
-- Speed = total xp (for a cursus) / duration (Nowadays - Begin_at) # We aim for the highest value of ActiveSpeed
-- SpeedRatio = 1 - (1 / Speed)
+-
+  - Speed = total xp (for a cursus) / duration (Nowadays - Begin_at) # We aim for the highest value of ActiveSpeed
+  - SpeedRatio = 1 - (1 / Speed)
+-
+  - ProjectSpeed = (Nowadays - locked_at)
+  - ProjectAmount = AmountOfValidatedProjects
 
-- ProjectSpeed = (Nowadays - locked_at)
-- ProjectAmount = AmountOfValidatedProjects
-
-- ProjectAmountRatio = 1 - (1 / AmountOfValidatedProjects) # We aim for the highest amount of validated projects
-- EvaluationAmount = AmountOfEvaluation
+-
+  - ProjectAmountRatio = 1 - (1 / AmountOfValidatedProjects) # We aim for the highest amount of validated projects
+  - EvaluationAmount = AmountOfEvaluation
 
 ### Features
 
