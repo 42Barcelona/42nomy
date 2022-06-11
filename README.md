@@ -1,87 +1,16 @@
-# 42nomy
-Experimental FOSS project to provide stats to students to help them manage their autonomy
+# Vue 3 + TypeScript + Vite
 
-## Specifications
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-### Variables
+## Recommended IDE Setup
 
-#### Progression
--
-  - XP = total of winned xp (all cursus)
-  - CursusXP = total of winned xp for a specific cursus
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
--
-  - BH Amount = nb of days of BH left
-  - BHRatio = 1 - (1 / ActiveSpeed) # We aim for the highest amount of BH
+## Type Support For `.vue` Imports in TS
 
-#### Involvment
--
-  - ActiveSpeed = total xp / total time logged
-  - ActiveSpeedRatio = 1 - (1 / ActiveSpeed) # We aim for the highest value of ActiveSpeed
+Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
 
--
-  - AmountOfEarnedCoaPts = Total amount of points winned since you've a 42 account
-  - CoalitionPointsRatio = 1 - (1 / AmountOfEarnedCoaPts) # We aim for the highest amount of coalition points
+1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
+2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
--
-  - nbOfCloses = The number of closes / community service you got
-  - ClosesRatio 1 / nbOfCloses # We aim for the lowest amount of closes
-> (a community service is always a close, a close is not always a community service but a desactivation of the account for whatever reason)
-
-#### Performance
-
--
-  - Speed = total xp (for a cursus) / duration (Nowadays - Begin_at) # We aim for the highest value of ActiveSpeed
-  - SpeedRatio = 1 - (1 / Speed)
--
-  - ProjectSpeed = (Nowadays - locked_at)
-  - ProjectAmount = AmountOfValidatedProjects
-
--
-  - ProjectAmountRatio = 1 - (1 / AmountOfValidatedProjects) # We aim for the highest amount of validated projects
-  - EvaluationAmount = AmountOfEvaluation
-
-### Features
-
-The software should match the following expectation:
-- LeaderBoard by specific variable
-
-### Scopes
-
-We want for you to be able to select the scope you want:
-- World Wide
-- Country
-- Campus
-- Kickoff
-- Pool
-
-### Time Range
-
-We would like also to have the possibility to filter the time range
-- since the beginning
-- By year
-- By quarter
-- By month
-- By week
-- Today
-
-### Goals
-
-Since not everyone aim the same goals in life, it's the same for your learning path
-
-Let's make it possible to choose different goals like:
-- The piscine (Discover Internet, Shell, C, peer2peer and 42 in general)
-- The common Core (learn the polyvalent basis knowledge of programming that will allow you to do whatever you want)
-- RNCP 6: Web & Modible Apps
-- RNCP 6: Software
-- RNCP 7: IT & Network
-- RNCP 7: Architecture Data & DB
-- Level 16 (Old Junior degree)
-- Level 21 (Old senior degree)
-
-# References
-- [42 Evaluators RNCP](https://42evaluators.com/rncp/)
-- [42 Evaluators Black Hole](https://42evaluators.com/blackhole)
-- [42 Evaluators XP Estimator](https://42evaluators.com/calculator)
-- [42 Evaluators Peer Finder](https://42evaluators.com/peerfinder/)
-- [gphilipp's Intra CLI](https://github.com/GlaceCoding/akatsugit_pydetector)
+You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
