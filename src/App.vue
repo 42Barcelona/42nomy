@@ -6,10 +6,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <HelloWorld msg1="Welcome to 42Nomy !" msg2="Login to continue" />
 </template>
 
 <style>
+html {
+  background-color: black;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,5 +21,6 @@ import HelloWorld from './components/HelloWorld.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
 }
 </style>
